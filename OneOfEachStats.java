@@ -38,7 +38,7 @@ public class OneOfEachStats {
 
 			//Add to stats
 			if (countChildren == 2) countFamiliesTwo += 1;
-			if (countChildren == 3) countFamiliesThree += 1;
+			else if (countChildren == 3) countFamiliesThree += 1;
 			else countFamiliesMore += 1;
 			countChildrenAll += countChildren;
 			
