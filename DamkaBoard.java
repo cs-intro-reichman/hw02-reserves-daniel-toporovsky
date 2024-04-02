@@ -3,6 +3,16 @@
  */
 public class DamkaBoard {
 	public static void main(String[] args) {
-		//// Put your code here
+		
+		int input = Integer.parseInt(args[0]);
+
+		for (int i = 0; i < input; i++){
+
+			for (int j = 0; j < input; j++){
+				if ((i % 2) == 0) System.out.print("* ");
+				else System.out.print  (" *");
+			}
+			System.out.println();
+		}
 	}
 }
